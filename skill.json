@@ -1,0 +1,71 @@
+{
+	"skills":[
+		{
+			"id":"1",
+			"Name":"YMCA Retirement Fund",
+			"Address": "New York, NY.",
+			"Position":"UI/Web Developer",
+			"ProjectDescription":" Created a new look for the application",
+			"Responsibilities":"asdadsjhgdjkasgdjagsgduasgdagsk",
+			"Environment": "",
+			"path":"images/rakesh.jpg"
+		},
+		{
+			"id":"2",
+			"Name":"United Nations",
+			"Address": "New York, NY.",
+			"Position":"UI/Web Developer",
+			"ProjectDescription":" Created a new look for the application",
+			"Responsibilities":"asdadsjhgdjkasgdjagsgduasgdagsk",
+			"Environment": "",
+			"path":"images/rakesh.jpg"
+
+		},
+		{
+			"id":"3",
+			"Name":"American Express",
+			"Address": "New York, NY.",
+			"Position":"UI/Web Developer",
+			"ProjectDescription":" Created a new look for the application",
+			"Responsibilities":"asdadsjhgdjkasgdjagsgduasgdagsk",
+			"Environment": "",
+			"path":"images/rakesh.jpg"
+
+		},
+		{
+			"id":"4",
+			"Name":"Fedex",
+			"Address": "New York, NY.",
+			"Position":"UI/Web Developer",
+			"ProjectDescription":" Created a new look for the application",
+			"Responsibilities":"asdadsjhgdjkasgdjagsgduasgdagsk",
+			"Environment": "",
+			"path":"images/rakesh.jpg"
+
+		},
+		{
+			"id":"5",
+			"Name":"Syntel",
+			"Address": "New York, NY.",
+			"Position":"UI/Web Developer",
+			"ProjectDescription":" Created a new look for the application",
+			"Responsibilities":"asdadsjhgdjkasgdjagsgduasgdagsk",
+			"Environment": "",
+			"path":"images/rakesh.jpg"
+
+		},
+		{
+			"id":"6",
+			"Name":"Syntel",
+			"Address": "New York, NY.",
+			"Position":"UI/Web Developer",
+			"ProjectDescription":" Created a new look for the application",
+			"Responsibilities":"asdadsjhgdjkasgdjagsgduasgdagsk",
+			"Environment": "",
+			"path":"images/rakesh.jpg"
+
+		}
+	]
+
+	
+}

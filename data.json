@@ -1,0 +1,65 @@
+{
+	"companies":[
+		{
+			"Name":"YMCA Retirement Fund",
+			"Address": "New York, NY.",
+			"Position":"UI/Web Developer",
+			"ProjectDescription":" Created a new look for the application",
+			"Responsibilities":"asdadsjhgdjkasgdjagsgduasgdagsk",
+			"Environment": "",
+			"path":"images/logo-ymca.jpg"
+		},
+		{
+			"Name":"United Nations",
+			"Address": "New York, NY.",
+			"Position":"UI/Web Developer",
+			"ProjectDescription":" Created a new look for the application",
+			"Responsibilities":"asdadsjhgdjkasgdjagsgduasgdagsk",
+			"Environment": "",
+			"path":"images/united.jpg"
+
+		},
+		{
+			"Name":"American Express",
+			"Address": "New York, NY.",
+			"Position":"UI/Web Developer",
+			"ProjectDescription":" Created a new look for the application",
+			"Responsibilities":"asdadsjhgdjkasgdjagsgduasgdagsk",
+			"Environment": "",
+			"path":"images/rakesh.jpg"
+
+		},
+		{
+			"Name":"Fedex",
+			"Address": "New York, NY.",
+			"Position":"UI/Web Developer",
+			"ProjectDescription":" Created a new look for the application",
+			"Responsibilities":"asdadsjhgdjkasgdjagsgduasgdagsk",
+			"Environment": "",
+			"path":"images/American-Express.jpg"
+
+		},
+		{
+			"Name":"Syntel",
+			"Address": "New York, NY.",
+			"Position":"UI/Web Developer",
+			"ProjectDescription":" Created a new look for the application",
+			"Responsibilities":"asdadsjhgdjkasgdjagsgduasgdagsk",
+			"Environment": "",
+			"path":"images/FedEx-Logo.png"
+
+		},
+		{
+			"Name":"Syntel",
+			"Address": "New York, NY.",
+			"Position":"UI/Web Developer",
+			"ProjectDescription":" Created a new look for the application",
+			"Responsibilities":"asdadsjhgdjkasgdjagsgduasgdagsk",
+			"Environment": "",
+			"path":"images/syntel_logo.gif"
+
+		}
+	]
+
+
+}

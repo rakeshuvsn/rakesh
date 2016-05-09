@@ -1,0 +1,208 @@
+<!doctype html>
+<html ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Untitled</title>
+        
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+			<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<script src="https://code.angularjs.org/1.5.5/angular-route.min.js"></script>
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel=stylesheet href="css/style.css">
+		
+		
+		<script src="js/modernizr.custom.js"></script>
+		
+        
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50" onload="loadDoc()">
+    	
+
+
+    	<div id="container" class="" >
+    		
+    		
+    		
+    		<nav  class="navbar narbar-inverse col-lg-12 " data-spy="affix" data-offset-top="197">
+			  <div class="container-fluid">
+			    <div class="navbar-header" ng-controller="shCtrl">
+			        <button style="color:white" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			          <span class="icon-bar"></span>
+			          <span class="icon-bar"></span>
+			          <span class="icon-bar"></span>                        
+			      </button>
+			      <a class="navbar-brand" ng-click="myFunc()" href=""><div style="opacity:0.8" class="round" ><img style="" class="rakesh-image" src="images/rakesh.jpg" alt=""></div></a>
+			      	<div style="width:100%;margin-top:175px;background-color:black;opacity:0.5;border-radius: 50%" ng-show="showMe">
+					 <center>   <h1>Menu:</h1>
+					    <div>Pizza</div>
+					    <div>Pasta</div>
+					    <div>Pesce</div>
+					    <div>Pasta</div>
+					    <div>Pesce</div>
+
+					  </center>
+					</div>
+			    </div>
+			    <div>
+			      <div class="collapse navbar-collapse" id="myNavbar">
+			        <ul style="margin-top:60px;background-color: black;opacity:0.5" class="nav navbar-nav">
+			          <li><a href="#container">Home</a></li>
+			          <li><a href="#section2" id="sec2">Skills</a></li>
+			          <li><a href="#section3">Professional </a></li>
+			          
+			          <li><a href="templates/myknowledge.html">My Knowledge</a></li>
+			          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio<span class="caret"></span></a>
+			            <ul class="dropdown-menu">
+			              <li><a href="#section41">YMCA</a></li>
+			              <li><a href="#section42">United Nations</a></li>
+			              <li><a href="#section41">American Express</a></li>
+			              <li><a href="#section42">Fedex</a></li>
+			              <li><a href="#section42">Syntel</a></li>
+			            </ul>
+			          </li>
+			          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+			            <ul class="dropdown-menu">
+			              <li><a href="#section41">Section 4-1</a></li>
+			              <li><a href="#section42">Section 4-2</a></li>
+			            </ul>
+			          </li>
+			          <li><a href="#section2">Section 2</a></li>
+			          <li><a href="#section3">Section 3</a></li>
+			          <li><a href="#section2">My Self</a></li>
+			          <li><a href="#section4">Contact Me</a></li>
+			        </ul>
+			      </div>
+			    </div>
+			  </div>
+		</nav>
+		<div class="main">
+				<ul id="cbp-bislideshow" class="cbp-bislideshow">
+					<li><img  src="images/html_5.gif" alt="image01"/></li>
+					<li><img  src="images/joy-of-bootstrap.jpg" alt="image02"/></li>
+					<li><img  src="images/angular.png" alt="image03"/></li>
+					<li><img  src="images/nodejs1.png" alt="image04"/></li>
+					<li><img  src="images/maxresdefault.jpg" alt="image05"/></li>
+					
+				</ul>
+				
+		</div>
+
+		<div style="position:absolute"   >
+		
+		</div>
+
+
+
+
+    		
+    		
+    	</div>
+    	<div style="background:black;opacity:0.8" id="section2" class="section" >
+    		<div   class="center1 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+    			<div style="" class="data-center">
+    				<div>
+    					<center>	<h1 id="nam"></h1> </center>
+    				</div>
+    				    <div id="slideshow1" class="slide">
+					        <div><p id="">lkk</p></div>
+					    </div>
+					    <div id="slideshow2" class="slide" style="display: none">
+					        <div><p id="pos"></p></div>
+					    </div>
+					    <div id="slideshow3" class="slide" style="display: none">
+					        <div><p id="posd"></p></div>
+					    </div>
+					    <div id="slideshow4" class="slide" style="display: none">
+					        <div><p id="add"></p></div>
+					    </div>
+    			</div>
+
+    			</br><center><button id="but1" onclick="next()"  style="color:white">next</button><button id="but2" onclick="previous()" style="color:white">prev</button></center>
+    		</div>
+
+    		
+    		
+
+    		
+    	</div>
+
+
+    	<div style="opacity:0.8" id="section3" class="section" ng-controller="myCtrl">
+    		<div style="height:50px">
+    			
+    		</div>
+
+	    	<div  ng-repeat="x in myWelcome" id="f1_container"  class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+	    		<div id="f1_card" class="shadow">
+					<div class="front face">
+	     				<img class="img-rounded" style="width:100%;height:100%"  ng-src={{x.path}} alt="Notdisplayed">
+	    			</div>
+	    			<div class="back face center">
+					    <p>{{x.Position}}</p>
+					    <p>{{x.ProjectDescription}}</p>
+					    <p>{{x.Responsibilities}}</p>
+					    <p>{{x.Environment}}</p>
+					   
+					</div>
+					
+				</div>	
+	    	</div>
+
+    	</div>
+
+
+    	<div style="background:black;opacity:0.8" id="section4" class="section">
+    		
+	    	<div style="margin-top:50px" class="center1 col-md-6 col-lg-6">
+			    <form action="" method="POST" role="form" >
+			    	<legend style="color:white">Contact Me</legend>
+			    
+			    	<div class="form-group">
+			    		<label for="">Name</label>
+			    		<input type="text" class="form-control" id="" placeholder="Input field">
+			    	</div>
+			    	<div class="form-group">
+			    		<label for="">Email</label>
+			    		<input type="email" class="form-control" id="" placeholder="Input field">
+			    	</div>
+			    	<div class="form-group">
+			    		<label for="">Phone</label>
+			    		<input type="text" class="form-control" id="" placeholder="Input field">
+			    	</div>
+			    	<div class="form-group">
+			    		<label for="">Message</label>
+			    		<teXtarea  class="form-control" id="message" rows="5" placeholder="Input field"></textarea>
+			    	</div>
+			    
+			    	
+			    
+			    	<button type="submit" class="btn btn-primary">Submit</button>
+			    </form>
+		    </div>
+		    
+    		
+    	</div>
+
+      
+       
+        <script src="js/jquery.imagesloaded.min.js"></script>
+		<script src="js/cbpBGSlideshow.min.js"></script>
+		<script src="js/skill.js"></script>
+		<script src="js/script.js"></script>
+      
+    </body>
+</html>
